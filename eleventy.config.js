@@ -94,7 +94,7 @@ module.exports = function (eleventyConfig) {
     // folder name and does **not** affect where things go in the output folder.
     pathPrefix: process.env.NODE_ENV === 'production' 
       ? '/guyfinddaway/'  // THAY BẰNG TÊN REPO THỰC TẾ CỦA BẠN
-      : '', // Giữ nguyên cho local development
+      : '/', // Giữ nguyên cho local development
   };
 };
 
