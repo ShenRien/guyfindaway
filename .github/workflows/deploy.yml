@@ -6,8 +6,6 @@ on:
   pull_request:
     branches: ["main"]
 
-  workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,10 +18,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
+          # HOÀN TOÀN KHÔNG DÙNG CACHE
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          ls -la # Kiểm tra xem package-lock.json có tồn tại không
 
       - name: Build site
         run: NODE_ENV=production npm run build
