@@ -1,6 +1,6 @@
 ---
-title: Markdown test page
-description: This article is a sample of everything you can create using markdown syntax.
+title: Nói về Markdown (test page từ theme)
+description: Không biết mình có nên nói về hay chỉnh sửa từ bài viết này không nhỉ?
 tags:
   - software
 ---
@@ -9,9 +9,11 @@ tags:
 
 ### Philosophy
 
-Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+Đây là phần trước đây ở mặc định là đoạn nói về triết lý của theme. Mình Tạm giữ lại sau này có gì tiếp tục đọc.
 
-Readability, however, is emphasized above all else. A Markdown-formatted
+> [!TIPS] Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+
+>Readability, however, is emphasized above all else. A Markdown-formatted
 document should be publishable as-is, as plain text, without looking
 like it's been marked up with tags or formatting instructions. While
 Markdown's syntax has been influenced by several existing text-to-HTML
