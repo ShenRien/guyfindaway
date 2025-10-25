@@ -77,6 +77,9 @@ module.exports = function (eleventyConfig) {
     // These are all optional:
     dir: {
       input: "src", // default: "."
+      output: "_site", // THÊM DÒNG NÀY - quan trọng cho GitHub Pages
+      includes: "_includes", // THÊM DÒNG NÀY
+      data: "_data" // THÊM DÒNG NÀY
     },
 
     // -----------------------------------------------------------------
@@ -89,7 +92,9 @@ module.exports = function (eleventyConfig) {
     // When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
     // it will transform any absolute URLs in your HTML to include this
     // folder name and does **not** affect where things go in the output folder.
-    pathPrefix: "/",
+    pathPrefix: process.env.NODE_ENV === 'production' 
+      ? '/guyfinddaway/'  // THAY BẰNG TÊN REPO THỰC TẾ CỦA BẠN
+      : '/', // Giữ nguyên cho local development
   };
 };
 
