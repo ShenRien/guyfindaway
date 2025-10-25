@@ -22,7 +22,7 @@ if similar.length > 0 %}
   <ul class="related-posts">
     {% for post in similar limit: 2 %}
     <li>
-      <a class="related-article" href="{{ post.url }}">
+      <a class="related-article" href="{{ post.url | url }}">
         <h3 class="related-article-title">{{ post.data.title }}</h3>
         <p class="related-article-description">
           Whenever I buy things I try to prioritize cost per use. Sometimes I
