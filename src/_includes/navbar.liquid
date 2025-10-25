@@ -48,11 +48,11 @@
   <nav>
     <ul class="navbar-links">
       <li class="link-home">
-        <a href="/">{{ site.shortTitle }}</a>
+        <a href="{{ '/' | url }}">{{ site.shortTitle }}</a>
       </li>
-      <li><a href="/articles">Articles</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/rss.xml">RSS</a></li>
+      <li><a href="{{ '/articles' | url }}">Articles</a></li>
+      <li><a href="{{ '/about' | url }}">About</a></li>
+      <li><a href="{{ '/rss.xml' | url }}">RSS</a></li>
     </ul>
   </nav>
   {% include "dark-toggler.liquid" %}
