@@ -4,7 +4,7 @@ layout: layouts/default.liquid
 
 <div class="main-sections">
   <section>
-    <h2>Bài Viết Mới</h2>
+    <h2>Bài Viết Mới Nhất</h2>
     {% assign posts = collections.posts %}
     {% assign count = 1 %}
     {% assign offset = 0 %}
@@ -12,17 +12,10 @@ layout: layouts/default.liquid
     {% include "postlist.liquid" %}
   </section>
 
-  {% assign tagList = collections | postTags %} {% if tagList.length > 0 %}
   <section>
-    <h2>Chủ đề</h2>
-    {%- for tag in tagList -%}
-    <a href="{{ '/tags/' | url }}{{ tag.name }}">{{ tag.name }}({{ tag.count }})</a>{% if
-    forloop.last != true %}<span>, </span>{% endif %} {%- endfor -%}
-  </section>
-  {% endif %}
-
-  <section>
+  <div style="height: 2em;"></div>
     <h2>Xem thêm các bài viết</h2>
+    <div style="height: 2em;"></div>
     <h3>Tất cả bài viết ({{collections.posts.length}})</h3>
     <div class="seemore">
     {% assign regular_posts = collections.posts %}
@@ -32,7 +25,7 @@ layout: layouts/default.liquid
     {% assign showExcerpt = false %}
     {% include "postlist.liquid" %}
     </div>
-
+    <a class="articles-link" href="{{ '/posts' | url }}">See more ></a>
     <div style="height: 2em;"></div>
 
      <!-- Posts từ tusixmode -->
@@ -43,20 +36,31 @@ layout: layouts/default.liquid
     {% assign offset = 0 %}
     {% include "postlist.liquid" %}
     {% endif %}
-
+    <a class="articles-link" href="{{ '/tusixmode' | url }}">See more ></a>
     <div style="height: 2em;"></div>
 
     <!-- Posts từ articles -->
     {% if collections.articles.length > 0 %}
-    <h3>Articles</h3>
+    <h3>Triết học tinh thần</h3>
     {% assign posts = collections.articles %}
     {% assign count = 2 %}
     {% assign offset = 0 %}
     {% include "postlist.liquid" %}
     {% endif %}
-
-    <a class="articles-link" href="{{ '/posts' | url }}">All the articles</a>
+    <a class="articles-link" href="{{ '/articles' | url }}">See more ></a>
+    
+    
+    
   </section>
+
+  {% assign tagList = collections | postTags %} {% if tagList.length > 0 %}
+  <section>
+    <h2>Chủ đề</h2>
+    {%- for tag in tagList -%}
+    <a href="{{ '/tags/' | url }}{{ tag.name }}">{{ tag.name }}({{ tag.count }})</a>{% if
+    forloop.last != true %}<span>, </span>{% endif %} {%- endfor -%}
+  </section>
+  {% endif %}
 </div>
 
 <style>
