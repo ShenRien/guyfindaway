@@ -34,7 +34,15 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("posts", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("src/posts/*.md").reverse();
+    return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse();
+  });
+
+  eleventyConfig.addCollection("articles", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/articles/*.md").reverse();
+  });
+
+  eleventyConfig.addCollection("tusixmode", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/tusixmode/*.md").reverse();
   });
 
   eleventyConfig.addLiquidFilter(

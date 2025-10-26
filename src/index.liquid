@@ -14,17 +14,38 @@ layout: layouts/default.liquid
   <section>
     <h2>Chủ đề</h2>
     {%- for tag in tagList -%}
-    <a href="{{ '/tags/{{ tag.name }}' | url }}">{{ tag.name }}({{ tag.count }})</a>{% if
+    <a href="{{ '/tags/' | url }}{{ tag.name }}">{{ tag.name }}({{ tag.count }})</a>{% if
     forloop.last != true %}<span>, </span>{% endif %} {%- endfor -%}
   </section>
   {% endif %}
 
   <section>
     <h2>Xem thêm các bài viết</h2>
+    <h3>Tất cả bài viết ({{collections.posts.length}})</h3>
+    {% assign regular_posts = collections.posts %}
     {% assign posts = collections.posts %}
     {% assign count = 5 %}
     {% assign offset = 1 %}
     {% include "postlist.liquid" %}
+
+     <!-- Posts từ tusixmode -->
+    {% if collections.tusixmode.length > 0 %}
+    <h3>Tusix Mode</h3>
+    {% assign posts = collections.tusixmode%}
+    {% assign count = 5 %}
+    {% assign offset = 0 %}
+    {% include "postlist.liquid" %}
+    {% endif %}
+
+    <!-- Posts từ articles -->
+    {% if collections.articles.length > 0 %}
+    <h3>Articles</h3>
+    {% assign posts = collections.articles %}
+    {% assign count = 5 %}
+    {% assign offset = 0 %}
+    {% include "postlist.liquid" %}
+    {% endif %}
+
     <a class="articles-link" href="{{ '/posts' | url }}">All the articles</a>
   </section>
 </div>
