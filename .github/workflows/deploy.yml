@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      artifact-name: ${{ steps.set-artifact-name.outputs.name }}
     
     steps:
       - name: Checkout code
@@ -18,12 +20,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          # HOÀN TOÀN KHÔNG DÙNG CACHE
+
+      - name: Generate unique artifact name
+        id: set-artifact-name
+        run: |
+          UNIQUE_NAME="github-pages-$(date +%s)"
+          echo "name=$UNIQUE_NAME" >> $GITHUB_OUTPUT
 
       - name: Install dependencies
-        run: |
-          npm install
-          ls -la # Kiểm tra xem package-lock.json có tồn tại không
+        run: npm install
 
       - name: Build site
         run: NODE_ENV=production npm run build
@@ -35,6 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '_site/'
+          # name: ${{ steps.set-artifact-name.outputs.name }} # ĐÃ COMMENT DÒNG NÀY
 
   deploy:
     needs: build
