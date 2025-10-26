@@ -33,6 +33,74 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.count - a.count);
   });
 
+  // ==================== CUSTOM FILTERS ====================
+  
+  // Filter lấy excerpt từ content
+  eleventyConfig.addFilter("excerpt", function(content, length = 150) {
+    if (!content) return '';
+    
+    // Xóa HTML tags
+    let text = content.replace(/<[^>]*>/g, '');
+    // Xóa khoảng trắng thừa
+    text = text.replace(/\s+/g, ' ').trim();
+    // Giới hạn độ dài
+    return text.length > length ? text.substring(0, length) + '...' : text;
+  });
+
+  // Filter lấy excerpt thông minh (cắt sau câu)
+  eleventyConfig.addFilter("smartExcerpt", function(content, length = 150) {
+    if (!content) return '';
+    
+    let text = content.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+    
+    if (text.length <= length) return text;
+    
+    // Tìm vị trí cắt tự nhiên sau dấu câu
+    let excerpt = text.substring(0, length + 50); // Lấy thêm để tìm dấu câu
+    let lastDot = excerpt.lastIndexOf('.');
+    let lastQuestion = excerpt.lastIndexOf('?');
+    let lastExclamation = excerpt.lastIndexOf('!');
+    
+    let cutIndex = Math.max(lastDot, lastQuestion, lastExclamation);
+    
+    // Nếu tìm thấy dấu câu và không quá ngắn
+    if (cutIndex > length * 0.5) {
+      return text.substring(0, cutIndex + 1) + '..';
+    }
+    
+    // Fallback: cắt tại khoảng trắng gần nhất
+    let lastSpace = text.lastIndexOf(' ', length);
+    if (lastSpace > length * 0.7) {
+      return text.substring(0, lastSpace) + '...';
+    }
+    
+    return text.substring(0, length) + '...';
+  });
+
+  // Filter lấy từ đầu tiên (cho tags, keywords)
+  eleventyConfig.addFilter("firstWords", function(content, wordCount = 10) {
+    if (!content) return '';
+    
+    let text = content.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+    let words = text.split(' ');
+    
+    return words.slice(0, wordCount).join(' ') + (words.length > wordCount ? '...' : '');
+  });
+
+  // Filter lấy paragraph đầu tiên
+  eleventyConfig.addFilter("firstParagraph", function(content) {
+    if (!content) return '';
+    
+    // Tách theo thẻ paragraph
+    let paragraphs = content.split('</p>');
+    if (paragraphs.length > 0) {
+      let firstPara = paragraphs[0].replace(/<[^>]*>/g, '').trim();
+      return firstPara.length > 0 ? firstPara : 'Xem thêm...';
+    }
+    
+    return content.replace(/<[^>]*>/g, '').substring(0, 100) + '...';
+  });
+
   eleventyConfig.addCollection("posts", function (collectionApi) {
     return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse();
   });
@@ -71,6 +139,8 @@ module.exports = function (eleventyConfig) {
     }
   );
 
+  
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
@@ -104,6 +174,8 @@ module.exports = function (eleventyConfig) {
       ? '/guyfinddaway/'  // THAY BẰNG TÊN REPO THỰC TẾ CỦA BẠN
       : '/', // Giữ nguyên cho local development
   };
+
+  
 };
 
 const getSimilarTags = function (categoriesA, categoriesB) {

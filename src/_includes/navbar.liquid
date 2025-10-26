@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     gap: var(--space-4);
+    position: relative;
   }
   .navbar nav {
     flex: 1;
@@ -21,40 +22,103 @@
   .navbar-links {
     list-style: none;
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: var(--space-6);
     row-gap: var(--space-4);
     flex-wrap: wrap;
+    justify-content: auto;
   }
-  .navbar-links > *:nth-child(2) {
-    margin-left: auto;
+  .navbar-links > *:nth-child(1) {
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  .navbar-links > *:not(:first-child) {
+    margin: left;
+    margin-left: 1px;
+    margin-top: var(--space-4);
   }
+
+  .toggler{
+    position: absolute;
+    right: var(--container-padding-sides);
+    transform: translateY(-50%);
+  }
+
   .link-home {
     font-weight: bold;
     color: var(--color-primary);
     font-size: var(--font-size-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
   }
+  .site-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    flex-shrink: 0; /* Ngăn không bị co nhỏ */
+  }
+  
+  /* Responsive fix */
   @media (max-width: 1250px) {
+    .navbar-links {
+      justify-content: auto;
+    }
     .navbar-links > *:nth-child(1) {
       width: 100%;
+      flex: 0 0 auto;
     }
     .navbar-links > *:nth-child(2) {
-      margin-left: unset;
+      margin-left: 1px;
+      width: auto;
+    }
+    .site-icon {
+      width: 55px; 
+      height: 55px;
     }
   }
+  
+  /* Mobile nhỏ hơn */
+  @media (max-width: 768px) {
+    .navbar-links {
+      gap: var(--space-4);
+    }
+    .site-icon {
+      width: 50px;
+      height: 50px;
+    }
+    .link-home {
+      font-size: var(--font-size-md);
+    }
+    .navbar-links > *:not(:first-child) {
+      flex: 1 1 calc(100% - var(--space-1)); /* 3 cột trên mobile */
+      font-size: var(--font-size-sm);
+      margin-top: 0;
+    }
+  }
+
+  
 </style>
 
 <header class="navbar">
   <nav>
     <ul class="navbar-links">
       <li class="link-home">
+        <img class="site-icon" 
+             src="{{ '/favicon/starfish-android-chrome-192x192.png' | url }}" 
+             alt="Starfish icon"
+             width="80" 
+             height="80">
         <a href="{{ '/' | url }}">{{ site.shortTitle }}</a>
+        <div class="toggler">{% include "dark-toggler.liquid" %}</div>
       </li>
+      
+      <!-- Các menu items khác -->
       <li><a href="{{ '/articles' | url }}">Triết học tinh thần</a></li>
       <li><a href="{{ '/tusixmode' | url }}">Tusix mode</a></li>
       <li><a href="{{ '/about' | url }}">About</a></li>
       <li><a href="{{ '/rss.xml' | url }}">RSS</a></li>
     </ul>
   </nav>
-  {% include "dark-toggler.liquid" %}
+  
 </header>

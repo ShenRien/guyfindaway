@@ -7,6 +7,8 @@ layout: layouts/default.liquid
     <h2>Bài Viết Mới</h2>
     {% assign posts = collections.posts %}
     {% assign count = 1 %}
+    {% assign offset = 0 %}
+    {% assign showExcerpt = true %}
     {% include "postlist.liquid" %}
   </section>
 
@@ -22,26 +24,33 @@ layout: layouts/default.liquid
   <section>
     <h2>Xem thêm các bài viết</h2>
     <h3>Tất cả bài viết ({{collections.posts.length}})</h3>
+    <div class="seemore">
     {% assign regular_posts = collections.posts %}
     {% assign posts = collections.posts %}
     {% assign count = 5 %}
     {% assign offset = 1 %}
+    {% assign showExcerpt = false %}
     {% include "postlist.liquid" %}
+    </div>
+
+    <div style="height: 2em;"></div>
 
      <!-- Posts từ tusixmode -->
     {% if collections.tusixmode.length > 0 %}
     <h3>Tusix Mode</h3>
     {% assign posts = collections.tusixmode%}
-    {% assign count = 5 %}
+    {% assign count = 2 %}
     {% assign offset = 0 %}
     {% include "postlist.liquid" %}
     {% endif %}
+
+    <div style="height: 2em;"></div>
 
     <!-- Posts từ articles -->
     {% if collections.articles.length > 0 %}
     <h3>Articles</h3>
     {% assign posts = collections.articles %}
-    {% assign count = 5 %}
+    {% assign count = 2 %}
     {% assign offset = 0 %}
     {% include "postlist.liquid" %}
     {% endif %}
