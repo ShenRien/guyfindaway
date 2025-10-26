@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tusixmode/The River.md",
+                "file": "The River.md",
                 "mode": "source",
                 "source": false
               },
@@ -187,8 +187,9 @@
   "active": "389d4b2d0637aafe",
   "lastOpenFiles": [
     "about.md",
-    "sample-article.md",
     "tusixmode/The River.md",
+    "The River.md",
+    "sample-article.md",
     "markdown.md",
     "Chưa đặt tên.md"
   ]
