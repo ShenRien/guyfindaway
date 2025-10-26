@@ -1,5 +1,5 @@
 ---
-title: the river
+title: The river
 description: '"người ta nói có một dòng sông..."'
 cssclasses:
   - posts
