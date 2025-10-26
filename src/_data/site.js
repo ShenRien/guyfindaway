@@ -1,10 +1,10 @@
 module.exports = {
-  title: "Nulite starter for Eleventy",
+  title: "Guy find da way",
   shortTitle: "Cuộc tìm kiếm sao biển 💊",
   description:
     "A beautiful and elegant blog theme starter project por Eleventy",
-  url: "https://example.com/",
+  url: "https://shenrien.github.io/guyfinddaway/",
   author: {
-    name: "Your Name Here",
+    name: "SHEN2H X SCORPRIEN",
   },
 };
