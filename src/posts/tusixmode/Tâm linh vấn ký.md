@@ -17,7 +17,7 @@ Nếu đang ngồi ở đây, thì không thấy được cảnh vật và nhữ
 Nếu ở ngoài, thì phải nhìn thấy khuôn mặt, nhìn thấy tóc tai, nhìn thấy sau lưng, nhưng thực tế là không nhìn thấy. Vậy thì nói Tâm ở ngoài, là không đúng.
 Nếu nói Tâm ở trong cơ thể, vậy thì phải nhìn thấy các bộ phận như xương, máu, thịt, tim, gan,... trước khi nhìn thấy những thứ bên ngoài, nhưng thực tế là cũng không nhìn thấy. Vậy nói Tâm ở bên trong cơ thể cũng là không đúng.
 Tiếp đến là Tâm ở giữa, nếu ở giữa thì phải nên nhìn thấy cả bên trong và bên ngoài như kể trên. Hoặc như thế nào là khoảng giữa. Thật ra mình không nhớ rõ lắm Phật Thích-Ca (Siddhartha) đã nói như thế nào về vị trí ở giữa này, nhưng cơ bản cũng là phá chấp.
-> Phải cố gắng giữ lại một số thông tin cá nhân như các mối quan hệ hay những câu chuyện hay và tốt đẹp trong đó.  Vì đã lỡ chia sẻ cho vài đứa biết rồi nên (dù là chắc tụi nó cũng đéo care) phải thận trọng, đề phòng vẫn tốt hơn. Cái gì người ta không biết thì chúng không phá hoại được, vì trên đời đũng có những kẻ chỉ muốn phá hoại những điều tốt đẹp.
+> Phải cố gắng giữ lại một số thông tin cá nhân như các mối quan hệ hay những câu chuyện hay và tốt đẹp trong đó.  Vì đã lỡ chia sẻ cho vài đứa biết rồi nên (dù là chắc tụi nó cũng đéo care) phải thận trọng, đề phòng vẫn tốt hơn. Cái gì người ta không biết thì chúng không phá hoại được, vì trên đời cũng có những kẻ chỉ muốn phá hoại những điều tốt đẹp.
 
 Sau đó Phật Thích-Ca còn nói thêm một vài vị trí mà tưởng là Tâm ở đó nhưng không đúng, các phá chấp này có trong kinh Lăng Nghiêm. 
 > Mong rằng mình không tự cho mình là "cao sĩ" để rồi cũng sống đời mục nát với cỏ cây.

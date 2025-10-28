@@ -26,14 +26,16 @@
     gap: var(--space-6);
     row-gap: var(--space-4);
     flex-wrap: wrap;
-    justify-content: auto;
+    justify-content: flex-start;
   }
-  .navbar-links > *:nth-child(1) {
-      width: 100%;
-      flex: 0 0 auto;
-    }
+  
+
+  .link-home-container {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
   .navbar-links > *:not(:first-child) {
-    margin: left;
     margin-left: 1px;
     margin-top: var(--space-4);
   }
@@ -56,22 +58,19 @@
     width: 60px;
     height: 60px;
     border-radius: 8px;
-    flex-shrink: 0; /* Ngăn không bị co nhỏ */
+    flex-shrink: 0;
   }
   
   /* Responsive fix */
   @media (max-width: 1250px) {
     .navbar-links {
-      justify-content: auto;
+      justify-content: flex-start;
     }
-    .navbar-links > *:nth-child(1) {
+    .link-home-container {
       width: 100%;
       flex: 0 0 auto;
     }
-    .navbar-links > *:nth-child(2) {
-      margin-left: 1px;
-      width: auto;
-    }
+
     .site-icon {
       width: 55px; 
       height: 55px;
@@ -91,35 +90,35 @@
       font-size: var(--font-size-md);
     }
     .navbar-links > *:not(:first-child) {
-      flex: 1 1 calc(100% - var(--space-1)); /* 3 cột trên mobile */
+      flex: 1 1 calc(100% - var(--space-1));
       font-size: var(--font-size-sm);
       margin-top: 0;
     }
   }
-
-  
 </style>
 
 <header class="navbar">
   <nav>
     <ul class="navbar-links">
-      <li class="link-home">
-        <img class="site-icon" 
-             src="{{ '/favicon/starfish-android-chrome-192x192.png' | url }}" 
-             alt="Starfish icon"
-             width="80" 
-             height="80">
-        <a href="{{ '/' | url }}">{{ site.shortTitle }}</a>
-        <div class="toggler">{% include "dark-toggler.liquid" %}</div>
+      <!-- ĐÃ SỬA: Thêm class cho container -->
+      <li class="link-home-container">
+        <div class="link-home">
+          <img class="site-icon" 
+               src="{{ '/favicon/starfish-android-chrome-192x192.png' | url }}" 
+               alt="Starfish icon"
+               width="80" 
+               height="80">
+          <a href="{{ '/' | url }}">{{ site.shortTitle }}</a>
+          <div class="toggler">{% include "dark-toggler.liquid" %}</div>
+        </div>
       </li>
       
       <!-- Các menu items khác -->
       <li><a href="{{ '/' | url }}">Home</a></li>
-      <li><a href="{{ '/articles' | url }}">Triết học tinh thần</a></li>
-      <li><a href="{{ '/tusixmode' | url }}">Tusix mode</a></li>
+      <li><a href="{{ '/philosyphia/' | url }}">Triết học tinh thần</a></li>
+      <li><a href="{{ '/tusixmode/' | url }}">Tusix mode</a></li>
       <li><a href="{{ '/about' | url }}">About</a></li>
-      <li><a href="{{ '/rss.xml' | url }}">RSS</a></li>
+      <li><a href="{{ '/rss.xml' | url }}" target="_blank" rel="noopener noreferrer">RSS</a></li>
     </ul>
   </nav>
-  
 </header>

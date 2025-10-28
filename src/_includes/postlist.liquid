@@ -1,6 +1,11 @@
 {% assign showExcerpt = showExcerpt | default: false %}
 {% assign isNewest = isNewest | default: false %}
+
+{% if isNewest == false %}
 <ul class="article-grid">
+{% else %}
+  <ul class="Newest">
+  {% endif %}
 
   {% for post in posts limit: count offset: offset %}
   {% if isNewest == false %}
@@ -29,40 +34,57 @@
 
 <style>
   .article-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: var(--space-1);
-    list-style: none; /* fixed: liststyle -> list-style */
+    list-style: none;
     padding: 0;
-    margin-bottom: -1.5em;
   }
-  
-  .article {
-    background-color: var(--color-post);
-    flex: 1 1 calc(33.33% - var(--space-4)); /* 5 cột */
-    min-width: 100px; /* Đảm bảo card không quá nhỏ */
-    padding: var(--space-3); /* Tăng padding cho đẹp */
+
+  .Newest {
+    flex: 1 1 100%;
+    min-width: 100%;
+    padding: var(--space-1);
     min-height: var(--space-2);
     border: .2px solid var(--color-border);
     border-radius: 0px;
     transition: all 0.3s ease;
     box-sizing: border-box;
-    /* border-left: 3px solid grey; */
-    /* deleted: display: flex, flex-direction: row, width: 20% */
+  }
+
+  .article {
+    background-color: var(--color-post);
+    padding: var(--space-4);
+    min-height: var(--space-2);
+    border: .2px solid var(--color-border);
+    border-radius: 0px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    /* XÓA tất cả flex properties */
   }
 
   .articleNewest {
-    flex: 1 1 calc(33.33% - var(--space-4)); /* 5 cột */
-    min-width: 100px; /* Đảm bảo card không quá nhỏ */
-    padding: var(--space-1); /* Tăng padding cho đẹp */
+    list-style: none;
+    padding: var(--space-3);
     min-height: var(--space-2);
     border: .2px solid var(--color-border);
     border-radius: 0px;
     transition: all 0.3s ease;
     box-sizing: border-box;
-    /* border-left: 3px solid grey; */
-    /* deleted: display: flex, flex-direction: row, width: 20% */
+    /* XÓA tất cả flex properties */
   }
+
+  .articleNewest * {
+    text-decoration: none !important;
+  }
+
+ 
+
+  
+
+  
+
+  
   
   .article a {
     text-decoration: unset;
@@ -71,7 +93,7 @@
   }
   
   .article + .article {
-    margin-top: 0; /* ĐÃ SỬA: Xóa margin-top vì đã dùng gap */
+    margin-top: 0;
     margin-bottom: 0;
   }
   
@@ -82,10 +104,10 @@
     line-height: 1.4;
     overflow: hidden;
    display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-line-clamp: 2;
            line-clamp: 2; 
    -webkit-box-orient: vertical;
-    line-height: 1.4; /* luôn đảm bảo chiều cao 2 dòng */
+    line-height: 1.4;
     height: calc(2 * 1.4em);
     min-height: calc(2 * 1.4em); 
   }
@@ -96,11 +118,11 @@
   
   .article-description {
     font-size: var(--font-size-xs);
-    color: var(--color-text-shade);
+    color: var(--color-text);
     line-height: 1.5;
     overflow: hidden;
    display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-line-clamp: 2;
            line-clamp: 2; 
    -webkit-box-orient: vertical;
   }
@@ -111,11 +133,58 @@
     margin-bottom: var(--space-2);
     overflow: hidden;
    display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-line-clamp: 2;
            line-clamp: 2; 
    -webkit-box-orient: vertical;
-   line-height: 1.4; /* luôn đảm bảo chiều cao 2 dòng */
+   line-height: 1.4;
     height: calc(1 * 1.4em);
     min-height: calc(1 * 1.4em);
   }
+
+  .article-content {
+    decoration: none;
+    font-size: calc(var(--font-size-xs) * 1.1);
+    color: var(--color-text-shade);
+    line-height: 1.5;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+  }
+
+  /* được dùng ban đầu và có thể dùng khi có nhiều bài viết, nhưng có bug layout
+  .article-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+    list-style: none;
+    padding: 0;
+    /* ĐÃ XÓA: margin-bottom: -1.5em; */
+  }
+  
+  .article {
+    background-color: var(--color-post);
+    flex: 1 1 calc(33.33% - var(--space-1));
+    min-width: 100px;
+    padding: var(--space-3);
+    min-height: var(--space-2);
+    border: .2px solid var(--color-border);
+    border-radius: 0px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+  }
+
+  .articleNewest {
+    flex: 1 1 calc(33.33% - var(--space-1));
+    min-width: 100px;
+    padding: var(--space-1);
+    min-height: var(--space-2);
+    border: .2px solid var(--color-border);
+    border-radius: 0px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+  }
+  */
+
 </style>

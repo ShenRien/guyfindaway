@@ -30,6 +30,21 @@ layout: layouts/default.liquid
     <a class="articles-link" href="{{ '/posts' | url }}">See more ></a>
     <div style="height: 2em;"></div>
 
+    <!-- Posts từ Triết học tinh thần -->
+    {% if collections.articles.length > 0 %}
+    <div  class="topicMode">
+    <h2>Triết học tinh thần</h2>
+    </div>
+    <div class="seemore">
+    {% assign posts = collections.articles %}
+    {% assign count = 3 %}
+    {% assign offset = 0 %}
+    {% include "postlist.liquid" %}
+    {% endif %}
+    </div>
+    <a class="articles-link" href="{{ '/articles' | url }}">See more ></a>
+    <div style="height: 2em;"></div>
+
      <!-- Posts từ tusixmode -->
     {% if collections.tusixmode.length > 0 %}
     <div  class="topicMode">
@@ -44,23 +59,6 @@ layout: layouts/default.liquid
     </div>
     <a class="articles-link" href="{{ '/tusixmode' | url }}">See more ></a>
     <div style="height: 2em;"></div>
-
-    <!-- Posts từ articles -->
-    {% if collections.articles.length > 0 %}
-    <div  class="topicMode">
-    <h2>Triết học tinh thần</h2>
-    </div>
-    <div class="seemore">
-    {% assign posts = collections.articles %}
-    {% assign count = 3 %}
-    {% assign offset = 0 %}
-    {% include "postlist.liquid" %}
-    {% endif %}
-    </div>
-    <a class="articles-link" href="{{ '/articles' | url }}">See more ></a>
-    
-    
-    
   </section>
 
   {% assign tagList = collections | postTags %} {% if tagList.length > 0 %}
@@ -81,14 +79,13 @@ layout: layouts/default.liquid
   }
   .articles-link {
     display: block;
-    margin-top: var(--space-4);
+    margin-top: var(--space-1);
   }
 
   .newfeed {
-    background-color: var(--color-post);
-    padding: var(--space-6);
-    padding-bottom: var(--space-8);
-    height: fix;
+    /*background-color: var(--color-post);*/
+    padding: var(--space-5);
+    /* border: 1px solid red; /* Temporary để debug */*/
   }
 
   .topicMode {
@@ -97,7 +94,7 @@ layout: layouts/default.liquid
   }
 
   .topicMode h2 {
-    color: black;
+    color: var(--color-text-title);
   }
 
   .seemore {
