@@ -1,8 +1,13 @@
 {% assign showExcerpt = showExcerpt | default: false %}
+{% assign isNewest = isNewest | default: false %}
 <ul class="article-grid">
 
   {% for post in posts limit: count offset: offset %}
+  {% if isNewest == false %}
   <li class="article">
+  {% else %}
+  <li class="articleNewest">
+  {% endif %}
     <a href="{{ post.url | url }}">
       <h4 class="article-title">{{ post.data.title }}</h4>
       <div class="article-time">
@@ -33,11 +38,24 @@
   }
   
   .article {
-    flex: 1 1 calc(20% - var(--space-4)); /* 5 cột */
+    background-color: var(--color-post);
+    flex: 1 1 calc(33.33% - var(--space-4)); /* 5 cột */
+    min-width: 100px; /* Đảm bảo card không quá nhỏ */
+    padding: var(--space-3); /* Tăng padding cho đẹp */
+    min-height: var(--space-2);
+    border: .2px solid var(--color-border);
+    border-radius: 0px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    /* border-left: 3px solid grey; */
+    /* deleted: display: flex, flex-direction: row, width: 20% */
+  }
+
+  .articleNewest {
+    flex: 1 1 calc(33.33% - var(--space-4)); /* 5 cột */
     min-width: 100px; /* Đảm bảo card không quá nhỏ */
     padding: var(--space-1); /* Tăng padding cho đẹp */
-    color: var(--color-text);
-    background: var(--color-bg);
+    min-height: var(--space-2);
     border: .2px solid var(--color-border);
     border-radius: 0px;
     transition: all 0.3s ease;
@@ -82,8 +100,8 @@
     line-height: 1.5;
     overflow: hidden;
    display: -webkit-box;
-   -webkit-line-clamp: 3; /* number of lines to show */
-           line-clamp: 3; 
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
    -webkit-box-orient: vertical;
   }
   

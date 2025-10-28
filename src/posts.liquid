@@ -1,3 +1,4 @@
+<!-- (Tùy chọn)
 <h3>Tusix mode</h3>
 
 {% assign posts = collections.tusixmode %}
@@ -11,9 +12,21 @@
 {% assign count = 5 %}
 {% include "postlist.liquid" %}
 <div style="height: 2em;"></div>
+-->
 
-<h3>Posts</h3>
 
+<div  class="topicMode">
+    <h2>Posts</h2>
+</div>
 {% assign posts = collections.posts %}
-{% assign count = 5 %}
+{% assign count = collections.posts.length %}
 {% include "postlist.liquid" %}
+
+<style>
+.topicMode {
+    text-align: center;
+  }
+
+  .topicMode h2 {
+  }
+</style>
