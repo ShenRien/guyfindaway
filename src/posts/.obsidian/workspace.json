@@ -11,14 +11,10 @@
             "id": "371d2fdbf0a696b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "template/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           }
         ]
@@ -169,7 +165,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "371d2fdbf0a696b7",
+  "active": "c6d41ac5a15d51c2",
   "lastOpenFiles": [
     "tets template.md",
     "articles/Untitled.md",
