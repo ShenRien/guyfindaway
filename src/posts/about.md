@@ -3,6 +3,7 @@ title: About me
 description: This page is a sample page so you can see that you can create your own about page (was)
 tags:
   - personal
+date: 2023-10-12T03:03:00
 ---
 
 Blog về hành trình trải nghiệm cá nhân ở dạng thô nhất là các dòng duy nghĩ.

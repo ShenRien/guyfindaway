@@ -3,6 +3,7 @@ title: Bạc liêu luận ký I
 description: Một số các góc nhìn
 tags:
   - personal
+date: 2025-10-26T15:27:00
 ---
 **Bạc Liêu — vùng đất của âm thanh và ký ức.**
 

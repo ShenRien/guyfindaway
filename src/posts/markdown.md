@@ -3,6 +3,7 @@ title: Nói về Markdown (test page từ theme)
 description: Không biết mình có nên nói về hay chỉnh sửa từ bài viết này không nhỉ?
 tags:
   - software
+date: 2023-10-12T03:03:00
 ---
 
 ## Overview

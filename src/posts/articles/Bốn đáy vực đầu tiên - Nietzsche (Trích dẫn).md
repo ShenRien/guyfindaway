@@ -3,6 +3,7 @@ tags:
   - nietzsche
 title: Bốn đáy vực đầu tiên - Nietzsche (Trích dẫn)
 description: Một đoạn trích dẫn của một dịch giả không chính thống về Nietzsche
+date: 2025-10-26T15:19:00
 ---
 
 ---

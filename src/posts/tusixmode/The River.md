@@ -5,6 +5,7 @@ cssclasses:
   - posts
 tags:
   - tusixmode
+date: 2025-10-26T10:13:00
 ---
 Danh từ thường dùng khi nói về ký ức. Thế giới này trôi qua theo như cách nó muốn trôi.
 
