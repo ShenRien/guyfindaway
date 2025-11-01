@@ -171,7 +171,7 @@ module.exports = function (eleventyConfig) {
     // it will transform any absolute URLs in your HTML to include this
     // folder name and does **not** affect where things go in the output folder.
     pathPrefix: process.env.NODE_ENV === 'production' 
-      ? '/guyfinddaway/'  // THAY BẰNG TÊN REPO THỰC TẾ CỦA BẠN
+      ? '/guyfindtheway/'  // THAY BẰNG TÊN REPO THỰC TẾ CỦA BẠN
       : '/', // Giữ nguyên cho local development
   };
 
