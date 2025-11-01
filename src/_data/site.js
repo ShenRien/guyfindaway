@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Guy find da way",
+  title: "Guy find the way",
   shortTitle: "Cuộc tìm kiếm sao biển 💊",
   description:
     "A beautiful and elegant blog theme starter project por Eleventy",
