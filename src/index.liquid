@@ -16,8 +16,8 @@ layout: layouts/default.liquid
   </section>
 
   <section>
-    <h2>Xem thêm các bài viết</h2>
-    <!-- <h3>Tất cả bài viết ({{collections.posts.length}})</h3> -->
+    <h2>Xem thêm các bài viết - ({{collections.posts.length}}) -</h2>
+    <!-- <h3>Tất cả bài viết - ({{collections.posts.length}}) -</h3> -->
     <div class="seemore">
     {% assign regular_posts = collections.posts %}
     {% assign posts = collections.posts %}
@@ -33,7 +33,7 @@ layout: layouts/default.liquid
     <!-- Posts từ Triết học tinh thần -->
     {% if collections.articles.length > 0 %}
     <div  class="topicMode">
-    <h2>Triết học tinh thần</h2>
+    <h2>Triết học tinh thần - ({{collections.articles.length}}) -</h2>
     </div>
     <div class="seemore">
     {% assign posts = collections.articles %}
@@ -48,7 +48,7 @@ layout: layouts/default.liquid
      <!-- Posts từ tusixmode -->
     {% if collections.tusixmode.length > 0 %}
     <div  class="topicMode">
-    <h2>Tusix Mode</h2>
+    <h2>Tusix Mode - ({{collections.tusixmode.length}}) -</h2>
     </div>
     <div class="seemore">
     {% assign posts = collections.tusixmode%}
