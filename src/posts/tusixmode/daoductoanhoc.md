@@ -1,5 +1,5 @@
 ---
-title: daoductoanhoc
+title: Đạo Đức Toán học
 date: 2025-11-03T13:55:00
 description: Là cách con người (hay khiêm tốn hơn - lũ cừu) định nghĩa về Đạo Đức, và cách nó phục vụ chúng (họ).
 ---
