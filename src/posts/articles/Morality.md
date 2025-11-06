@@ -2,7 +2,7 @@
 tags:
   - nietzsche
   - spiritual
-title: Morality - Nietzsche
+title: Morality - Nietzsche (Trích dẫn)
 date: 2025-11-05T19:51:00
 description: Một đoạn trích dẫn của một dịch giả không chính thống về Nietzsche (part II)
 ---
