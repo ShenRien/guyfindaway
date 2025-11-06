@@ -17,7 +17,7 @@ Nhưng bọn tôn giáo thấy con ngựa hoang thay vì dạy cho nó cách phi
 
 Nietzsche gọi đó là **triệt sản**, tấn công vào gốc rễ dục vọng = sự sống, một thứ triết lý thù địch.
 
-Bọn bất lực với thứ ý chí yếu đuối không kiểm soát bản năng thì lại khoá dùng mấy câu chuyện “địa ngục”, “quỷ ám”, “nghiệp chướng” để khiến mày sợ mà đi vô khuôn khổ chúng nó muốn.
+Bọn bất lực với thứ ý chí yếu đuối không kiểm soát bản năng thì lại khoái dùng mấy câu chuyện “địa ngục”, “quỷ ám”, “nghiệp chướng” để khiến mày sợ mà đi vô khuôn khổ chúng nó muốn.
 
 Mà cái nghịch lý ở chỗ thằng chửi bới dục vọng to tiếng nhất đéo đến từ mấy cha đã tu thành chánh quả mà là đám tu hổ mang - vừa muốn tu vừa thèm tục nên phải gào lên để át đi cơn thèm muốn gái đẹp, rượu ngon, giàu sang.
 
