@@ -27,7 +27,7 @@ Mày biết ơn kẻ thù vì đã tra tấn, hành hạ làm cho mày mạnh h�
 
 Đó là lợi ích của việc giữ cho tôn giáo tiếp tục - có kẻ thù để chiến đấu, một bãi chiến trường để sáng tạo.
 
-. Mày chỉ có thể trẻ mãi khi tâm hồn mày còn đang đánh lộn, chứ đéo phải đi tìm chỗ nghỉ hưu. Vì thế, bọn tao khinh bỉ cái trò “bình yên trong tâm hồn”. Đó là hạnh phúc của một **con bò cái đạo đức**. Mày từ bỏ chiến tranh là mày đã từ bỏ một cuộc đời đáng sống.
+> Mày chỉ có thể trẻ mãi khi tâm hồn mày còn đang đánh lộn, chứ đéo phải đi tìm chỗ nghỉ hưu. Vì thế, bọn tao khinh bỉ cái trò “bình yên trong tâm hồn”. Đó là hạnh phúc của một **con bò cái đạo đức**. Mày từ bỏ chiến tranh là mày đã từ bỏ một cuộc đời đáng sống.
 
 Nói tóm lại, có hai loại đạo đức:
 
