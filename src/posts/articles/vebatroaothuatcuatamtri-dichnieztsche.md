@@ -44,31 +44,31 @@ Sau đó là phần diễn giải
 > [!QUOTE]
 > ### Diễn giải
 >
-Cái mà Phật giáo gọi là **“Vô ngã”** (`Anatta`), Nietzsche gọi là **sự sụp đổ của cái “Tôi”**.
+> Cái mà Phật giáo gọi là **“Vô ngã”** (`Anatta`), Nietzsche gọi là **sự sụp đổ của cái “Tôi”**.
 >
-Cả hai đều nói cùng một điều: Cái “mày” mà mày nghĩ là mày—cái thằng bất biến, có một linh hồn riêng, đang ngồi trong đầu mày ra lệnh—chỉ là một ảo ảnh.
+> Cả hai đều nói cùng một điều: Cái “mày” mà mày nghĩ là mày—cái thằng bất biến, có một linh hồn riêng, đang ngồi trong đầu mày ra lệnh—chỉ là một ảo ảnh.
 >
 >- **Phật giáo** mổ xẻ nó ra thành năm uẩn (`ngũ uẩn`): sắc, thọ, tưởng, hành, thức. Một mớ hỗn độn đang thay đổi từng giây.
 >  
 >- **Nietzsche** thì nói nó là một bãi chiến trường của những ham muốn, những xung lực đang cắn xé nhau để giành quyền lực.
 >  
 >
-Cả hai đều đồng ý: **Đéo có một thằng chủ nhà. Chỉ có một ngôi nhà đang cháy.**
+> Cả hai đều đồng ý: **Đéo có một thằng chủ nhà. Chỉ có một ngôi nhà đang cháy.**
 >
-Và cái niềm tin vào một “thằng chủ nhà” bất biến chính là nguồn gốc của sự lừa dối.
+> Và cái niềm tin vào một “thằng chủ nhà” bất biến chính là nguồn gốc của sự lừa dối.
 >
-Chính từ cái ảo tưởng về một cái “tôi” vững chắc này mà mày mới phóng chiếu ra một “thiên đường” có trật tự vĩnh hằng và một “Chúa” vững chắc - nơi thoát khỏi thế giới mày đang sống hỗn loạn, vô nghĩa, ngu ngốc, đần độn và sống một cuộc đời khổ đau vì tình, tiền, dục vọng.
+> Chính từ cái ảo tưởng về một cái “tôi” vững chắc này mà mày mới phóng chiếu ra một “thiên đường” có trật tự vĩnh hằng và một “Chúa” vững chắc - nơi thoát khỏi thế giới mày đang sống hỗn loạn, vô nghĩa, ngu ngốc, đần độn và sống một cuộc đời khổ đau vì tình, tiền, dục vọng.
 >
-Nhưng sau khi đã chẩn đoán xong căn bệnh, chúng nó lại kê hai đơn thuốc hoàn toàn trái ngược. Đây là chỗ chúng nó trở thành kẻ thù không đội trời chung.
+> Nhưng sau khi đã chẩn đoán xong căn bệnh, chúng nó lại kê hai đơn thuốc hoàn toàn trái ngược. Đây là chỗ chúng nó trở thành kẻ thù không đội trời chung.
 >
 >- **Liều thuốc của Phật giáo:** Mấy ông sư nói: “Nguyên nhân của khổ đau là vì mày bám víu vào cái ‘tôi’ ảo ảnh đó, mày ham muốn. Vậy thì hãy dập tắt mẹ nó ham muốn đi. Hãy thấy ra sự trống rỗng để thoát khỏi cái vòng luân hồi đau khổ. Mục tiêu là **sự tĩnh lặng**, là **Niết Bàn**.” Nó là một liều thuốc cho những kẻ đã mệt mỏi với sự sống.
 >  
 >- **Liều thuốc của Nietzsche:** Lão thì gầm lên: “Ham muốn chính là sự sống! Cái mớ hỗn độn đó chính là vật liệu! Đừng có dập tắt nó. Hãy trở thành một thằng **nghệ sĩ**, một thằng **thợ rèn**. Hãy nắm lấy cái mớ hỗn loạn đó và **áp đặt ý chí** của mày lên nó. Hãy rèn nó thành một con người vĩ đại, một Siêu nhân. Mục tiêu không phải là thoát khỏi cuộc chiến. Mục tiêu là **trở thành một chiến binh giỏi hơn.**“
 >  
 >
-Cả hai đều là những nhà tâm lý học vĩ đại đã nhìn thấu sự lừa dối của cái “tôi”. Nhưng Phật giáo là liều thuốc cho những kẻ muốn **chấm dứt** sự hỗn loạn. Còn triết học của Nietzsche là vũ khí cho những kẻ muốn **làm chủ** sự hỗn loạn.
+> Cả hai đều là những nhà tâm lý học vĩ đại đã nhìn thấu sự lừa dối của cái “tôi”. Nhưng Phật giáo là liều thuốc cho những kẻ muốn **chấm dứt** sự hỗn loạn. Còn triết học của Nietzsche là vũ khí cho những kẻ muốn **làm chủ** sự hỗn loạn.
 >
-Một bên dạy mày cách **buông bỏ**. Một bên dạy mày cách **chinh phạt**.
+> Một bên dạy mày cách **buông bỏ**. Một bên dạy mày cách **chinh phạt**.
 
 "Ngũ uẩn". Có nên nghĩ rằng chỉ cần đến đây là đủ. Nhưng sau hai hướng xử lý, có vẻ như giảm "xung lực" của khái niệm ngũ uẩn lại. **Liều thuốc Phật giáo** được nhắc tới gần như giảm sạch mọi "xung lực". **Liều thuốc Nietzsche** chỉ gọt tỉa, mài bớt đi phần ngọn. Hay do người viết, dịch giả cố ý thêm thắt năng lượng theo ý họ.
 
