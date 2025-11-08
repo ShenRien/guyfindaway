@@ -19,15 +19,15 @@ Còn quá sớm để nhìn đến trích dẫn này:
 >3. **Trò “Cái Tôi”:** Và mày nghĩ có một thằng “Tao” nhỏ xíu ngồi trong đầu mày đang kéo dây giật rối. **Thằng đó đéo tồn tại.**
   >  
 >
->Giờ thì tao nói cho mày biết sự thật: Toàn bộ cái “thế giới nội tâm” của mày chỉ là một bãi tha ma đầy ma trơi. “Ý chí”, “động cơ”, và “cái tôi” — tất cả chỉ là những con ma do chính mày đẻ ra. **Đéo có thứ gì gọi là nguyên nhân tinh thần.**
+> Giờ thì tao nói cho mày biết sự thật: Toàn bộ cái “thế giới nội tâm” của mày chỉ là một bãi tha ma đầy ma trơi. “Ý chí”, “động cơ”, và “cái tôi” — tất cả chỉ là những con ma do chính mày đẻ ra. **Đéo có thứ gì gọi là nguyên nhân tinh thần.**
 >
-Và đây mới là tội ác lớn nhất. Sau khi đã bị lừa bởi mấy con ma trong đầu, mày lại nhìn ra cả vũ trụ và tưởng đâu đâu cũng có ma.
+> Và đây mới là tội ác lớn nhất. Sau khi đã bị lừa bởi mấy con ma trong đầu, mày lại nhìn ra cả vũ trụ và tưởng đâu đâu cũng có ma.
 >
-Vì mày tin có một cái “Tao” vững chắc, nên mày nhìn vào một cái cây và cũng tưởng nó là một “Sự vật” vững chắc. Mày đã **phóng chiếu** cái ảo tưởng về chính mày lên mọi thứ. Mày đã nhét ma vào trong mọi hòn đá, mọi cái cây.
+> Vì mày tin có một cái “Tao” vững chắc, nên mày nhìn vào một cái cây và cũng tưởng nó là một “Sự vật” vững chắc. Mày đã **phóng chiếu** cái ảo tưởng về chính mày lên mọi thứ. Mày đã nhét ma vào trong mọi hòn đá, mọi cái cây.
 >
-Và con ma to nhất, con ma trùm cuối mà mày đã phóng chiếu ra là gì? **Là “Chúa”.**
+> Và con ma to nhất, con ma trùm cuối mà mày đã phóng chiếu ra là gì? **Là “Chúa”.**
 >
-Chúa chỉ là cái ảo tưởng “có một thằng đang ra lệnh” được phóng to lên kích cỡ vũ trụ. Ngay cả “nguyên tử” của bọn khoa học cũng chỉ là một phiên bản nhỏ hơn của con ma đó. Cái “vật-tự-nó” của bọn triết gia cũng thế. Toàn là một lũ lấy ảo ảnh trong đầu mình ra làm thước đo cho thực tại.
+> Chúa chỉ là cái ảo tưởng “có một thằng đang ra lệnh” được phóng to lên kích cỡ vũ trụ. Ngay cả “nguyên tử” của bọn khoa học cũng chỉ là một phiên bản nhỏ hơn của con ma đó. Cái “vật-tự-nó” của bọn triết gia cũng thế. Toàn là một lũ lấy ảo ảnh trong đầu mình ra làm thước đo cho thực tại.
 
 Nietzsche nói về 3 trò ảo thuật. "Ý chí", rằng nghĩ ý chí đưa tay lên điều khiển, nhưng thật ra không có "Ý chí" nào muốn đưa tay lên cả. "Động cơ", bản chất là hành động trước, có một thôi thúc muốn hành động mà đéo biết nguyên nhân, sau đó hành động đó bị gán một "động cơ" vào. Cuối cùng, đéo có cái "Tôi" nào đang đứng sau điều khiển cả.
 
