@@ -8,7 +8,7 @@ description: 'Một điểm đích trên bảng đồ thường chỉ về một
 image: /assets/images/kimchinam.png
 ---
 <p align="center">
-  <img src="/assets/images/kimchinam.png" />
+  <img src="{{ urlimg }}{{ post.data.image }}" />
 </p>
 
 Mình chưa bao giờ làm một việc gì đó để mong được ai đó hay người khác chú ý hay công nhận.
