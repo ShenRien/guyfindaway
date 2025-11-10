@@ -7,9 +7,6 @@ title: Kim chỉ nam
 description: 'Một điểm đích trên bảng đồ thường chỉ về một kết quả mang tính hấp dẫn ví dụ như: "Nơi đây có rồng"'
 image: /assets/images/kimchinam.png
 ---
-<p align="center">
-  <img src="{{ urlimg }}{{ post.data.image }}" />
-</p>
 
 Mình chưa bao giờ làm một việc gì đó để mong được ai đó hay người khác chú ý hay công nhận.
 
