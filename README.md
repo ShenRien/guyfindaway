@@ -1,10 +1,11 @@
-This blog made with Nulite starter [med]
+##### This blog made with Nulite starter [med]
 
-Updated all off source
+##### Updated all off source
 
-Updated config
+##### Updated config
 
 Blog cá nhân viết về những kiến thức và suy nghĩ mỗi khi muốn.
+
 Theme và mã nguồn được thiết kế tập trung vào sự cơ bản là đọc.
 
 Blog sử dụng mã nguồn theme Nulite (từ file /README-Author.md)
