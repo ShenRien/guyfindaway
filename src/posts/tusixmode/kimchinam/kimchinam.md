@@ -46,7 +46,7 @@ Người ta không mất hay đạt được bất cứ thứ gì trên đời n
 
 Viết là một lời tự thú nhận, tự cầu nguyện.
 
-Mình gặp nhưng kẻ nói rằng nếu mày không tranh giành, người khác sẽ tranh. Khái niệm đó đến nay mình vẫn không cách nào mình chứng là nó không đúng. Vì rõ ràng cuộc sống của người nói câu đó có vẻ tốt hơn, có vợ đẹp, có tiền bạc chứ không phải lao đao khốn khổ và nhận đầy mọi sự khinh miệt từ xã hội xung quanh như mình hiện tại.
+Mình gặp những kẻ nói rằng nếu mày không tranh giành, người khác sẽ tranh. Khái niệm đó đến nay mình vẫn không cách nào minh chứng là nó không đúng. Vì rõ ràng cuộc sống của người nói câu đó có vẻ tốt hơn, có vợ đẹp, có tiền bạc chứ không phải lao đao khốn khổ và nhận đầy mọi sự khinh miệt từ xã hội xung quanh như mình hiện tại.
 
 Nhưng mình vẫn thấy nó sai ở chỗ, quan điểm đó coi thường giá trị. Quan điểm đó, có vẻ như, nhìn thấy phụ nữ là một giống loài không khác gì với cách mình nhìn chó mèo thú cưng. Có cảm giác yêu thương nhưng những con vật đó không có lý trí hay sự hiểu biết như mình, và chúng không có khả năng suy luận hay đưa ra quyết định đúng, nên là ai tranh đua giành được thì là của người đó. Cái buồn cười là trong mắt mình, có vẻ phụ nữ lại thích kiểu người xem họ là như vậy hơn. Chắc sau này có tiền mình sẽ nghĩ khác. Không biết, mình vẫn thấy quan điểm xem người khác có linh hồn như mình thì tốt hơn là xem họ là kiểu không có linh hồn.
 
@@ -58,7 +58,7 @@ Vì sự giả tạo của đạo đức nằm ở chỗ nó lý tưởng hóa s
 
 Nếu kiếp này đến đây, không để làm gì ngoài việc sự tồn tại của mình là cái gai trong mắt kẻ khác. Vậy thì, không có vậy thì, đây chỉ là một câu nói.
 
-Ngoài ra, ngươi không cần nghĩ đến kẻ khác, không cần nghĩ đến phản ứng của chúng. Vì thật ra không có phản ứng nào ngoài phản ứng của chính với với những thứ xung đột xảy ra bên trong sâu thẳm của linh hồn ngươi.
+Ngoài ra, ngươi không cần nghĩ đến kẻ khác, không cần nghĩ đến phản ứng của chúng. Vì thật ra không có phản ứng nào ngoài phản ứng của chính ngươi với những thứ xung đột xảy ra bên trong sâu thẳm của linh hồn ngươi.
 
 Việc đưa tri thức dạy hay truyền đạt, rao giảng ra thực chất giống như việc cho ai đó lấy đi cái của mình. Nhưng trò chơi lại không dừng lại ở đó. Như việc người ta dùng một cuốn sách giải, họ có thể dùng cuốn sách giải để nhảy cóc một số bước. Nhưng họ không thực sự hiểu nếu dùng cuốn sách giải, hoặc là tưởng rằng mình đã hiểu (để mô tả đơn giản dễ hiểu hơn về việc vì sao họ không thể hiểu, đó là câu hỏi tại sao nguồn tri thức lại nghĩ ra được bước đó). Vô hình chung, theo thời gian, với nguyên lý phóng lao là phải theo lao, họ sẽ bị lệ thuộc vào nguồn của tri thức. Thứ mà họ nghĩ là mình lấy cắp được, chỉ là phần "da lông" của một thứ gì đó trừu tượng và sâu thẳm hơn. Người ta không thể lấy ra được bất cứ thứ gì ngoài chính bản thân mình.
 
