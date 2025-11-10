@@ -19,15 +19,20 @@ Blog sử dụng mã nguồn theme Nulite (từ file /README-Author.md)
 - Thay thế một số placeholder từ các file .liquid
 - Thay đổi favion thành ảnh riêng nếu muốn
 - Cài đặt Node.js để chạy test trên local
-- format khuyến nghị: file posttitle.md
+- format khuyến nghị:
+  
+  File posttitle.md
+  
   ``` markdown
   ---
   date: dd/mm/yyyy
   tag: #posttags
   title: Tên Bài Post
   description: Tóm tắt nội dung bài post
-  image: /assets/images/hinhanh.png (tùy chọn, không để ảnh sẽ hiển thị ảnh mặc định, đặt vào trong thư mục posts/assets/images/)
+  image: /assets/images/hinhanh.png
+  (tùy chọn, không để ảnh sẽ hiển thị ảnh mặc định, đặt vào trong thư mục posts/assets/images/)
   ---
   // Nội dung bài viết
   ```
+  
 Enjoy it!
