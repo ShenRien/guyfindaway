@@ -22,7 +22,7 @@
       {% endif %}
       
         {% if post.data.image %}
-        <img src="{{ urlimg }}{{ post.data.image }}" alt="{{ post.data.image }}">
+        <img src="{{ urlimg }}{{ post.data.image }}" alt="{{ urlimg }}{{ post.data.image }}">
         {% else %}
         <img src="https://raw.githubusercontent.com/ShenRien/guyfindtheway/refs/heads/main/src/posts/assets/images/default-image.png" alt="Default image">
         {% endif %}
