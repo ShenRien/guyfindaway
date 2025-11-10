@@ -1,6 +1,6 @@
 {% assign showExcerpt = showExcerpt | default: false %}
 {% assign isNewest = isNewest | default: false %}
-
+{% assign urlimg = "https://raw.githubusercontent.com/ShenRien/guyfindtheway/refs/heads/main/src/posts" %}
 {% if isNewest == false %}
 <ul class="article-grid">
 {% else %}
@@ -22,7 +22,7 @@
       {% endif %}
       
         {% if post.data.image %}
-        <img src="{{ post.data.image | url }}" alt="{{ post.data.image }}">
+        <img src="{{ post.data.image | urlimg }}" alt="{{ post.data.image }}">
         {% else %}
         <img src="https://raw.githubusercontent.com/ShenRien/guyfindtheway/refs/heads/main/src/posts/assets/images/default-image.png" alt="Default image">
         {% endif %}
