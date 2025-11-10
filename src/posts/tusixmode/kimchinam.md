@@ -5,7 +5,7 @@ tags:
   - personal
 title: Kim chỉ nam
 description: 'Một điểm đích trên bảng đồ thường chỉ về một kết quả mang tính hấp dẫn ví dụ như: "Nơi đây có rồng"'
-image: "[[kimchinam.png]]"
+image:
 ---
 
 Mình chưa bao giờ làm một việc gì đó để mong được ai đó hay người khác chú ý hay công nhận.
