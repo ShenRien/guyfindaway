@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tusixmode/kimchinam.md",
+                "file": "tusixmode/kimchinam/kimchinam.md",
                 "mode": "source",
                 "source": false
               },
@@ -169,13 +169,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "c6d41ac5a15d51c2",
+  "active": "371d2fdbf0a696b7",
   "lastOpenFiles": [
     "assets/images/kimchinam.png",
-    "assets/images/png4A38.tmp",
-    "tusixmode/kimchinam",
-    "articles/kimchinam.png",
+    "tusixmode/kimchinam/kimchinam.png",
     "tusixmode/kimchinam.md",
+    "tusixmode/kimchinam/kimchinam.md",
+    "tusixmode/kimchinam",
+    "assets/images/png4A38.tmp",
+    "articles/kimchinam.png",
     "articles/png3E3A.tmp",
     "articles/vebatroaothuatcuatamtri-dichnieztsche.md",
     "articles/Morality.md",

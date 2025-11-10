@@ -8,7 +8,7 @@ module.exports = function (eleventyConfig) {
     "./public/": "/",
   });
 
-  eleventyConfig.addPassthroughCopy("src/posts/assets");
+  eleventyConfig.addPassthroughCopy("src/posts/assets/");
 
   eleventyConfig.addPlugin(codeStyleHooks, {
     lineNumbers: false,
