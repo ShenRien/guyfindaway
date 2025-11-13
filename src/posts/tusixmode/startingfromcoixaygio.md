@@ -63,11 +63,11 @@ Cách làm như sau:
 
 ##### Tản mạn về công thức toán học dùng để "trộn":
 
-Ví dụ bằng công thức:  **$g^x \mod p = X$** (X là mã khóa đã trộn)
-		- g là một số khác 0
-		- x là khóa bí mật của Alice hoặc Bob
-		- p là một số nguyên tố khổng lồ
-		- **X** là **mã khóa đã trộn** được gửi công khai
+Ví dụ bằng công thức:  **$g^x \mod p = X$**   (X là mã khóa đã trộn)
+-  g là một số khác 0
+- x là khóa bí mật của Alice hoặc Bob
+- p là một số nguyên tố khổng lồ
+-  **X** là **mã khóa đã trộn** được gửi công khai
 
 Đây là một hàm một chiều, một phương trình tìm x biết công thức tính ra X là như trên và không biết thêm gì cả.
 
@@ -100,7 +100,7 @@ Về cơ bản thì việc giải mã ngược là bất khả thi với hàm m�
 > Hoặc là nghĩ về nguyên lý phép thử, như Hàn Tín
 
 ---
-Không biết mình đã muốn biết ra Nguyên tắc mã hóa đầu cuối này từ hôm nào rồi. Nhưng cứ nghĩ tới nghĩ lui, và không biết post lên đâu hay dựng thêm một blog riêng cho ứng dụng đang làm, vì nó nghiêng về Toán hay lập trình nhiều hơn là Triết học. Hiện tại mình không có ý nói rằng mình biết về những mảng này, chỉ có vô tình tìm hiểu một số ít.
+Không biết mình đã muốn viết ra Nguyên tắc mã hóa đầu cuối này từ hôm nào rồi. Nhưng cứ nghĩ tới nghĩ lui, và không biết post lên đâu hay dựng thêm một blog riêng cho ứng dụng đang làm, vì nó nghiêng về Toán hay lập trình nhiều hơn là Triết học. Hiện tại mình không có ý nói rằng mình biết về những mảng này, chỉ có vô tình tìm hiểu một số ít.
 
 Mình vẫn cứ tự dằn vặt mình mỗi khi đi hớt tóc về. Mong là lần cắt tóc này mình có thể để dài thật dài như ý mình muốn.
 
