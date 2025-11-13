@@ -5,6 +5,7 @@ title: Phản biện về 3 trò ảo thuật Tâm trí
 tags:
   - nietzsche
   - spiritual
+  - articles
 ---
 Còn quá sớm để nhìn đến trích dẫn này:
 

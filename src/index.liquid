@@ -12,6 +12,8 @@ layout: layouts/default.liquid
     {% assign isNewest = true %}
     {% assign showExcerpt = true %}
     {% include "postlist.liquid" %}
+    {% assign feedtags = posts.postTags %}
+
     </div>
   </section>
 
@@ -37,12 +39,18 @@ layout: layouts/default.liquid
     </div>
     <div class="seemore">
     {% assign posts = collections.articles %}
-    {% assign count = 4 %}
+    {% assign count = 6 %}
+    {% assign tagList = collections | postTags %} {% if tagList.length > 0 %}
+    {%- for tag in tagList -%}
+    {% if tag.name == "articles" %}
     {% assign offset = 0 %}
+    {% else %}
+    {% assign offset = 0 %}
+    {% endif %} {%- endfor -%} {% endif %}
     {% include "postlist.liquid" %}
     {% endif %}
     </div>
-    <a class="articles-link" href="{{ '/articles' | url }}">See more ></a>
+    <a class="articles-link" href="{{ '/philosyphia/' | url }}">See more ></a>
     <div style="height: 2em;"></div>
 
      <!-- Posts từ tusixmode -->
@@ -52,8 +60,18 @@ layout: layouts/default.liquid
     </div>
     <div class="seemore">
     {% assign posts = collections.tusixmode%}
-    {% assign count = 4 %}
+    {% assign count = 6 %}
+
+    {% assign tagList = collections | postTags %} 
+    {% if tagList.length > 0 %}
+    {%- for tag in tagList -%}
+    {% if tag.name == "tusixmode" %}
+    {% assign offset = 1 %}
+    {% else %}
     {% assign offset = 0 %}
+    {% endif %}
+    {%- endfor -%}
+    {% endif %}
     {% include "postlist.liquid" %}
     {% endif %}
     </div>

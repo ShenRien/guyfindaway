@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tusixmode/kimchinam/kimchinam.md",
+                "file": "articles/Bốn đáy vực đầu tiên - Nietzsche (Trích dẫn).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kimchinam"
+              "title": "Bốn đáy vực đầu tiên - Nietzsche (Trích dẫn)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:articles",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Tìm kiếm"
+              "title": "Search"
             }
           },
           {
@@ -74,7 +74,8 @@
               "title": "Đánh dấu"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,24 +170,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "371d2fdbf0a696b7",
+  "active": "b1c8e8f00e391732",
   "lastOpenFiles": [
-    "assets/images/kimchinam.png",
-    "tusixmode/kimchinam/kimchinam.png",
+    "articles/Morality.md",
+    "articles/vebatroaothuatcuatamtri-dichnieztsche.md",
+    "articles/Bốn đáy vực đầu tiên - Nietzsche (Trích dẫn).md",
     "tusixmode/kimchinam.md",
+    "assets/images/coixaygio.png",
+    "assets/images/default-image.png",
+    "assets/images/kimchinam.png",
+    "articles/kimchinam.png",
+    "tusixmode/The river.md",
+    "tusixmode/Tâm linh vấn ký.md",
+    "tusixmode/startingfromcoixaygio.md",
+    "tusixmode/Quân đội, lính đánh thuê và đồng minh.md",
+    "tusixmode/daoductoanhoc.md",
+    "tusixmode/Bạc Liêu luận ký I.md",
+    "tusixmode/mahoadaucuoi-e2ee.md",
     "tusixmode/kimchinam/kimchinam.md",
+    "tusixmode/kimchinam/kimchinam.png",
     "tusixmode/kimchinam",
     "assets/images/png4A38.tmp",
-    "articles/kimchinam.png",
     "articles/png3E3A.tmp",
-    "articles/vebatroaothuatcuatamtri-dichnieztsche.md",
-    "articles/Morality.md",
-    "articles/Bốn đáy vực đầu tiên - Nietzsche (Trích dẫn).md",
-    "tusixmode/daoductoanhoc.md",
-    "tusixmode/The river.md",
-    "tusixmode/Quân đội, lính đánh thuê và đồng minh.md",
-    "tusixmode/Tâm linh vấn ký.md",
-    "tusixmode/Bạc Liêu luận ký I.md",
     "about.md",
     "tets template.md",
     "articles/bài viết testing template.md",
