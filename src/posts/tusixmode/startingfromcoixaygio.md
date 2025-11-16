@@ -63,7 +63,7 @@ Cách làm như sau:
 
 ##### Tản mạn về công thức toán học dùng để "trộn":
 
-Ví dụ bằng công thức:  **$g^x \mod p = X$**   (X là mã khóa đã trộn)
+Ví dụ bằng công thức:  **$g^x \mod p = X$**  (X là mã khóa đã trộn)
 -  g là một số khác 0
 - x là khóa bí mật của Alice hoặc Bob
 - p là một số nguyên tố khổng lồ
