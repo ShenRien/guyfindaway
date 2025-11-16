@@ -1,5 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const codeStyleHooks = require("eleventy-plugin-code-style-hooks");
+const mathjaxPlugin = require("eleventy-plugin-mathjax");
 
 module.exports = function (eleventyConfig) {
   // Copy the contents of the `public` folder to the output folder
@@ -34,6 +35,8 @@ module.exports = function (eleventyConfig) {
       .map((k) => ({ name: k, count: tags[k].length }))
       .sort((a, b) => b.count - a.count);
   });
+
+  eleventyConfig.addPlugin(mathjaxPlugin);
 
   // ==================== CUSTOM FILTERS ====================
   
