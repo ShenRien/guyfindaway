@@ -1,8 +1,20 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const codeStyleHooks = require("eleventy-plugin-code-style-hooks");
 const mathjaxPlugin = require("eleventy-plugin-mathjax");
+const markdownLib = require('markdown-it')({html: true});
+const mdAttrs = require('markdown-it-attrs');
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.setLibrary("md", markdownLib);
+  eleventyConfig.amendLibrary("md", markdownLib => markdownLib.use(mdAttrs));
+
+  eleventyConfig.addPairedShortcode("markdown", (content, inline = null) => {
+    return inline
+      ? markdownLib.renderInline(content)
+      : markdownLib.render(content);
+  });
+
   // Copy the contents of the `public` folder to the output folder
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
@@ -176,8 +188,8 @@ module.exports = function (eleventyConfig) {
     // it will transform any absolute URLs in your HTML to include this
     // folder name and does **not** affect where things go in the output folder.
     pathPrefix: process.env.NODE_ENV === 'production' 
-      ? '/guyfindtheway/'  // THAY BẰNG TÊN REPO THỰC TẾ CỦA BẠN
-      : '/', // Giữ nguyên cho local development
+      ? '/guyfindtheway/'  
+      : '/', 
   };
 
   

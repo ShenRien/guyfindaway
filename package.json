@@ -24,6 +24,7 @@
     "eleventy-plugin-mathjax": "^2.0.4"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "^6.0.4"
+    "@11ty/eleventy-img": "^6.0.4",
+    "markdown-it-attrs": "^4.3.1"
   }
 }

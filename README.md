@@ -13,6 +13,9 @@ Blog sử dụng mã nguồn theme Nulite (từ file /README-Author.md)
 ### Mã nguồn được chia sẻ ở đây có thể được cá nhân hóa bởi người thấy thích muốn sử dụng 
 #### Mình tùy biến thêm một số tính năng như hình ảnh và hiển thị danh sách
 
+#### Plugins list
+> - npm install --save markdown-it-attrs (target _blank (mở liên kết qua trang mới bằng hậu tố  [your text](http://yourlink.example/){target='_blank'} ))
+
 ##### Cách dùng
 - Tải trực tiếp mã nguồn từ đây
 - Thư mục scr/posts/ lưu trữ tất cả các bài viết 
