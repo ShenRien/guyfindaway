@@ -10,7 +10,7 @@ image: /assets/images/bhagavadgita.png
 
 > [!BHAGAVAD GITA]
 > 
-> I. 32 - 35: Govinda ơi, chúng ta cần vương quốc, hạnh phúc và cả chính cuộc đời để làm gì nếu tất cả những người mà vì họ, chúng ta đang cố chiếm hữu những thứ đó, giờ đã dàn trận trên chiến địa này?  Madhusūdana ơi, khi các vị tôn sư, các bậc cha chú, con cái, tổ phụ, chú bác họ ngoại, các vị nhạc phụ, cháu chắt, anh em rể và những người bà con thân thích khác nhau đang đứng trước mặt tôi đây đều sẵn sàng lìa bỏ mạng sống và tài sản, làm sao tôi có thể mong giết chết họ, kể cả khi họ có thể hạ sát tôi trong trường hợp ngược lại? Hỡi đấng phù trì muôn loài, tôi không muốn giao chiến với họ kể cả khi được đổi ba cõi thế giới chứ nói gì tới cõi phàm này. Việc tàn sát các vương tử của Dhritarashtra sẽ mang lại cho chúng ta nhiều vui sướng lắm sao?
+> **I. 32 - 35:** Govinda ơi, chúng ta cần vương quốc, hạnh phúc và cả chính cuộc đời để làm gì nếu tất cả những người mà vì họ, chúng ta đang cố chiếm hữu những thứ đó, giờ đã dàn trận trên chiến địa này?  Madhusūdana ơi, khi các vị tôn sư, các bậc cha chú, con cái, tổ phụ, chú bác họ ngoại, các vị nhạc phụ, cháu chắt, anh em rể và những người bà con thân thích khác nhau đang đứng trước mặt tôi đây đều sẵn sàng lìa bỏ mạng sống và tài sản, làm sao tôi có thể mong giết chết họ, kể cả khi họ có thể hạ sát tôi trong trường hợp ngược lại? Hỡi đấng phù trì muôn loài, tôi không muốn giao chiến với họ kể cả khi được đổi ba cõi thế giới chứ nói gì tới cõi phàm này. Việc tàn sát các vương tử của Dhritarashtra sẽ mang lại cho chúng ta nhiều vui sướng lắm sao?
 > 
 > ---
 > **न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च |  
@@ -27,18 +27,21 @@ image: /assets/images/bhagavadgita.png
 >
 >na kāṅkṣhe vijayaṁ kṛiṣhṇa na cha rājyaṁ sukhāni cha  
 > kiṁ no rājyena govinda kiṁ bhogair jīvitena vā  
+> 
 > yeṣhām arthe kāṅkṣhitaṁ no rājyaṁ bhogāḥ sukhāni cha  
 > ta ime ’vasthitā yuddhe prāṇāṁs tyaktvā dhanāni cha
+> 
 > āchāryāḥ pitaraḥ putrās tathaiva cha pitāmahāḥ  
 > mātulāḥ śhvaśhurāḥ pautrāḥ śhyālāḥ sambandhinas tathā
+> 
 > etān na hantum ichchhāmi ghnato ’pi madhusūdana  
 > api trailokya-rājyasya hetoḥ kiṁ nu mahī-kṛite
 > 
 >---
 >
-> BG 1.32-33: O Krishna, I do not desire victory, kingdom, or the happiness accruing to it. Of what avail will be a kingdom, pleasures, or even life itself, when the very persons for whom we covet them, are standing before us for battle?
+> **BG 1.32-33:** O Krishna, I do not desire victory, kingdom, or the happiness accruing to it. Of what avail will be a kingdom, pleasures, or even life itself, when the very persons for whom we covet them, are standing before us for battle?
 > 
-> BG 1.34-35: Teachers, fathers, sons, grandfathers, maternal uncles, grandsons, fathers-in-law, grand-nephews, brothers-in-law, and other kinsmen are present here, staking their lives and riches. O Madhusudan, I do not wish to slay them, even if they attack me. If we kill the sons of Dhritarashtra, what satisfaction will we derive from the dominion over the three worlds, what to speak of this Earth?
+> **BG 1.34-35:** Teachers, fathers, sons, grandfathers, maternal uncles, grandsons, fathers-in-law, grand-nephews, brothers-in-law, and other kinsmen are present here, staking their lives and riches. O Madhusudan, I do not wish to slay them, even if they attack me. If we kill the sons of Dhritarashtra, what satisfaction will we derive from the dominion over the three worlds, what to speak of this Earth?
 
 Ngài Arjuna có nhiều hơn suy nghĩ mà một người được cho là uyên bác nhất ở chuẩn mực con người có thể có. Và những lời lẽ Ngài thốt lên là những lời lẽ của một bậc trí giả đầy các phẩm chất đức hạnh. Câu hỏi Ngài đặt ra là, tại sao phải chiến đấu khi mà những kẻ chúng ta phải giết là những kẻ mà vì họ, chúng ta đang đứng đây để chiến đấu.
 
