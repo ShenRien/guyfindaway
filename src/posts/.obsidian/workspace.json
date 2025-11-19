@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tusixmode/Personal.md",
-                "mode": "preview",
+                "file": "articles/vechuongdautien2-bhagavadgita.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personal"
+              "title": "vechuongdautien2-bhagavadgita"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 244.51103591918945
   },
   "right": {
     "id": "559ec01162f92c42",
@@ -172,13 +172,15 @@
   "active": "371d2fdbf0a696b7",
   "lastOpenFiles": [
     "tusixmode/kimchinam.md",
-    "assets/images/personal.png",
-    "tusixmode/Personal.md",
-    "tusixmode/nguoikhonannoinuavoi.md",
-    "tusixmode/startingfromcoixaygio.md",
+    "assets/images/bhagavadgita.png",
+    "articles/vechuongdautien2-bhagavadgita.md",
+    "articles/vebatroaothuatcuatamtri-dichnieztsche.md",
     "articles/Bốn đáy vực đầu tiên - Nietzsche (Trích dẫn).md",
     "articles/Morality.md",
-    "articles/vebatroaothuatcuatamtri-dichnieztsche.md",
+    "tusixmode/Personal.md",
+    "assets/images/personal.png",
+    "tusixmode/nguoikhonannoinuavoi.md",
+    "tusixmode/startingfromcoixaygio.md",
     "assets/images/coixaygio.png",
     "assets/images/default-image.png",
     "assets/images/kimchinam.png",
@@ -205,7 +207,6 @@
     "Invalid date.md",
     "Templates",
     "tusixmode/Định lượng cá thể.md",
-    "Bạc Liêu luận ký I.md",
-    "Bốn đáy vực đầu tiên - Nietzsche (Trích dẫn).md"
+    "Bạc Liêu luận ký I.md"
   ]
 }
