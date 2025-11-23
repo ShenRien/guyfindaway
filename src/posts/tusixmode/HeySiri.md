@@ -59,4 +59,23 @@ Là mày luôn mực tưởng tượng rằng người mày yêu đó dùng tìn
 Rồi mày ôm cái viễn cảnh này xuống mồ.
 
 ---
+continue...
+
+---
+(những năng lượng này có vẻ đang rất không tốt, thậm chí kinh khủng - đây là documentary)
+Mong là không nhiều lắm năng lượng không tốt. Thật ra năng lượng tiêu cực không hẳn là những dòng chữ đậm vẻ chửi rủa, miệt thị, mà nó còn là kiểu ủ rủ, mềm mại nhẹ nhàng nhưng mang trong nó dáng vẻ không đúng lắm. 
+
+Chủ yếu theo mình năng lượng tốt là một loại năng lượng truyền cảm hứng khi đọc, từng con chữ trong đó gọi sự tích cực khi đọc chứ không gợi cái tôi. Năng lượng tốt không làm thức ăn cho cái tôi. Còn hiện tại chắc mấy dòng này là thức ăn của cái tôi. Phải đợi đến sau đọc lại mới biết được, và lại chỉnh sửa dần dần.
+
+Phải cố gắng đối mặt, ít nhất, mình quá quen với việc trốn tránh và chờ đợi đến lúc mình đầy đủ mới xuất hiện hoạt động. Nhưng có vẻ cách làm này không tốt lắm, nhưng đối mặt trong trạng thái không chắc chắn luôn kéo đến khá nhiều hệ quả. Dù sao thì, xin hãy đối mặt. Nhưng với cảm giác đầy đủ, không phải với cảm giác sợ hãi, lo lắng.
+
+Không nên đọc tiếp vì có thể năng lượng này không tốt.
+
+Đối mặt với sự thật rằng mình không đủ mạnh khó khăn hơn việc đợi mọi thứ sắp xếp vào sự đúng đắn của nó để mình có thể tự mình giải quyết được tất cả mọi chuyện. Cảm giác khó chấp nhận nhất là đặt mọi người vào một tình huống bỗng nhiên không còn ai ở đó nữa. Thêm vào đó là nếu xuất hiện, người khác đã từng rất tôn trọng mình bỗng nhiên nhận ra không còn, mất đi sự tôn trọng đó mà không biết lý do tại sao. Chỉ biết rằng, đau đớn kinh khủng, như đã vĩnh viễn mất đi không còn được gặp linh hồn đó nữa.
+
+Mình dùng sự biến mất không phải với ý cố để cho mình luôn hoàn hảo trong mắt kẻ khác,... nhưng mình yếu rồi, không nên nói ra.
+
+Mong là mọi chuyện vẫn tốt đẹp. Mình sẽ quay lại.
+
+---
 > Shen2H x Scorprien: from ashes
