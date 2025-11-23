@@ -11,14 +11,12 @@
             "id": "371d2fdbf0a696b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "articles/vechuongdautien3-bhagavadgita.md",
-                "mode": "preview",
-                "source": false
+                "file": "assets/images/noivechuongdautien3.png"
               },
-              "icon": "lucide-file",
-              "title": "vechuongdautien3-bhagavadgita"
+              "icon": "lucide-image",
+              "title": "noivechuongdautien3"
             }
           }
         ]
@@ -171,9 +169,11 @@
   },
   "active": "371d2fdbf0a696b7",
   "lastOpenFiles": [
-    "assets/images/vechuongdautien3.png",
-    "articles/vechuongdautien2-bhagavadgita.md",
     "articles/vechuongdautien3-bhagavadgita.md",
+    "assets/images/noivechuongdautien3.png",
+    "assets/images/vechuongdautien3f.png",
+    "articles/vechuongdautien2-bhagavadgita.md",
+    "assets/images/vechuongdautien3.png",
     "tusixmode/HeySiri.md",
     "assets/images/one.png",
     "tusixmode/kimchinam.md",
@@ -196,7 +196,6 @@
     "tusixmode/Bạc Liêu luận ký I.md",
     "tusixmode/mahoadaucuoi-e2ee.md",
     "tusixmode/kimchinam/kimchinam.md",
-    "tusixmode/kimchinam/kimchinam.png",
     "tusixmode/kimchinam",
     "assets/images/png4A38.tmp",
     "articles/png3E3A.tmp",
