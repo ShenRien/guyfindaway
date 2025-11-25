@@ -77,5 +77,7 @@ Mình dùng sự biến mất không phải với ý cố để cho mình luôn 
 
 Mong là mọi chuyện vẫn tốt đẹp. Mình sẽ quay lại.
 
+> Không phải là tao không tin, không phải tao biết mình đang đi con đường đúng đắn gì. Tao chỉ đơn giản là không có cách nào khác ngoài tiếp tục đi tới phía trước và chờ đợi mọi sắp đặt nghiệt ngã, đau đớn và tàn bạo nhất có thể mà số phận sẽ trút lên đầu tao.
+
 ---
 > Shen2H x Scorprien: from ashes

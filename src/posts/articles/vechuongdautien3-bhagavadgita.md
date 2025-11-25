@@ -39,6 +39,7 @@ Loài người, với những tư tưởng, suy nghĩ phân chia, luôn cho mìn
 
 Nhưng, không hiểu sao
 
+
 Đức Chí Tôn chuẩn bị nói: "**ngươi lấy đâu ra cung cách xấu xa này?**"
 
 ---
